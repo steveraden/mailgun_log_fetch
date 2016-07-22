@@ -1,8 +1,5 @@
 require 'rest_client'
-require 'byebug'
 require 'json'
-
-
 
 def get_logs(domain)
   key = ENV["MAILGUN_KEY"]
